@@ -1,0 +1,81 @@
+﻿hr {
+    border-color: var(--border-hr);
+    margin-top: 0rem;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+.confirmed {
+    color: var(--approved);
+}
+
+.awaiting {
+    color: var(--cancelled);
+}
+
+.AV {
+    border-color: var(--available);
+    border-width: 1.5px;
+    border-radius: 0.5rem;
+}
+
+.XA {
+    border-color: var(--cancelled);
+    border-width: 1.5px;
+    border-radius: 0.5rem;
+}
+
+.FP {
+    border-color: var(--fullpayment);
+    border-width: 1.5px;
+    border-radius: 0.5rem;
+}
+
+.RQ {
+    border-color: var(--onrequest);
+    border-width: 1.5px;
+    border-radius: 0.5rem;
+}
+
+.KK {
+    border-color: var(--approved);
+    border-width: 1.5px;
+    border-radius: 0.5rem;
+}
+
+.textColor_AV {
+    color: var(--white);
+}
+
+.textColor_XA {
+    color: var(--cancelled);
+}
+
+.textColor_FP {
+    color: var(--fullpayment);
+}
+
+.textColor_RQ {
+    color: var(--onrequest);
+}
+
+.textColor_KK {
+    color: var(--approved);
+}
+
+.statusCode{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.statusDesc {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.border-left {
+    border-left: 2px solid var(--border-hr)
+}
